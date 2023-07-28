@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E707E86E29BF38EE0041B960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E86D29BF38EE0041B960 /* AppDelegate.m */; };
+		E707E87129BF38EE0041B960 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E87029BF38EE0041B960 /* ViewController.m */; };
+		E707E87329BF38EF0041B960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E707E87229BF38EF0041B960 /* Assets.xcassets */; };
+		E707E87629BF38EF0041B960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E707E87429BF38EF0041B960 /* Main.storyboard */; };
+		E707E87829BF38EF0041B960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E87729BF38EF0041B960 /* main.m */; };
+		E707E88329BF38EF0041B960 /* VBBrowserControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E88229BF38EF0041B960 /* VBBrowserControllerTests.m */; };
+		E707E88D29BF38EF0041B960 /* VBBrowserControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E88C29BF38EF0041B960 /* VBBrowserControllerUITests.m */; };
+		E707E88F29BF38EF0041B960 /* VBBrowserControllerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E88E29BF38EF0041B960 /* VBBrowserControllerUITestsLaunchTests.m */; };
+		E707E8A229BF45CA0041B960 /* VBBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8A129BF45CA0041B960 /* VBBrowserController.m */; };
+		E707E8A529BF46730041B960 /* VBBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8A429BF46730041B960 /* VBBrowserViewController.m */; };
+		E707E8AA29BF46BF0041B960 /* VBVerseStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8A929BF46BF0041B960 /* VBVerseStackViewController.m */; };
+		E707E8AD29BF46D70041B960 /* VBBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8AC29BF46D70041B960 /* VBBrowserView.m */; };
+		E707E8B029BF46F00041B960 /* VBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8AF29BF46F00041B960 /* VBScrollView.m */; };
+		E707E8B629BF47050041B960 /* VBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8B529BF47050041B960 /* VBTableView.m */; };
+		E707E8BA29BF478C0041B960 /* VBVerseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8B929BF478C0041B960 /* VBVerseViewController.m */; };
+		E707E8BE29BF49BE0041B960 /* VBBrowserViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E707E8BD29BF49BE0041B960 /* VBBrowserViewController.storyboard */; };
+		E707E8C229BF4F950041B960 /* VBBrowserController-Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8C129BF4F950041B960 /* VBBrowserController-Categories.m */; };
+		E707E8C629BF53070041B960 /* NSObject+LayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8C529BF53070041B960 /* NSObject+LayoutConstraints.m */; };
+		E707E8C829BF54580041B960 /* VBBrowserViewController-Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8C729BF54580041B960 /* VBBrowserViewController-Categories.m */; };
+		E707E8CA29BF56A70041B960 /* VBVerseStackViewController-Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8C929BF56A70041B960 /* VBVerseStackViewController-Categories.m */; };
+		E707E8CD29BF58C20041B960 /* VBTestVerseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8CC29BF58C20041B960 /* VBTestVerseView.m */; };
+		E707E8CF29BF58DE0041B960 /* VBTestVerseViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E707E8CE29BF58DE0041B960 /* VBTestVerseViewController.storyboard */; };
+		E707E8D629BF5E010041B960 /* VBTableView-Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8D529BF5E010041B960 /* VBTableView-Categories.m */; };
+		E707E8D829BF6B510041B960 /* VBVerseReference.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8D729BF6B510041B960 /* VBVerseReference.m */; };
+		E707E8DE29BF81FD0041B960 /* VBVerseViewController+addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8DD29BF81FD0041B960 /* VBVerseViewController+addtions.m */; };
+		E707E8E129BF8B3E0041B960 /* VBScrollView-Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = E707E8E029BF8B3E0041B960 /* VBScrollView-Categories.m */; };
+		E7A6ABAF29C036E00082166E /* NSArray+BeyondIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A6ABAE29C036E00082166E /* NSArray+BeyondIntercept.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E707E87F29BF38EF0041B960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E707E86129BF38EE0041B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E707E86829BF38EE0041B960;
+			remoteInfo = VBBrowserController;
+		};
+		E707E88929BF38EF0041B960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E707E86129BF38EE0041B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E707E86829BF38EE0041B960;
+			remoteInfo = VBBrowserController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E707E86929BF38EE0041B960 /* VBBrowserController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBBrowserController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E707E86C29BF38EE0041B960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E707E86D29BF38EE0041B960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E707E86F29BF38EE0041B960 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E707E87029BF38EE0041B960 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E707E87229BF38EF0041B960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E707E87529BF38EF0041B960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E707E87729BF38EF0041B960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E707E87929BF38EF0041B960 /* VBBrowserController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VBBrowserController.entitlements; sourceTree = "<group>"; };
+		E707E87E29BF38EF0041B960 /* VBBrowserControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBBrowserControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E707E88229BF38EF0041B960 /* VBBrowserControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBBrowserControllerTests.m; sourceTree = "<group>"; };
+		E707E88829BF38EF0041B960 /* VBBrowserControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBBrowserControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E707E88C29BF38EF0041B960 /* VBBrowserControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBBrowserControllerUITests.m; sourceTree = "<group>"; };
+		E707E88E29BF38EF0041B960 /* VBBrowserControllerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBBrowserControllerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E707E89E29BF45570041B960 /* VBBrowserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBBrowserController.h; sourceTree = "<group>"; };
+		E707E89F29BF45570041B960 /* VBVerseReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBVerseReference.h; sourceTree = "<group>"; };
+		E707E8A029BF45570041B960 /* VBVerseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBVerseViewController.h; sourceTree = "<group>"; };
+		E707E8A129BF45CA0041B960 /* VBBrowserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBBrowserController.m; sourceTree = "<group>"; };
+		E707E8A329BF46730041B960 /* VBBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBBrowserViewController.h; sourceTree = "<group>"; };
+		E707E8A429BF46730041B960 /* VBBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBBrowserViewController.m; sourceTree = "<group>"; };
+		E707E8A829BF46BF0041B960 /* VBVerseStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBVerseStackViewController.h; sourceTree = "<group>"; };
+		E707E8A929BF46BF0041B960 /* VBVerseStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBVerseStackViewController.m; sourceTree = "<group>"; };
+		E707E8AB29BF46D70041B960 /* VBBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBBrowserView.h; sourceTree = "<group>"; };
+		E707E8AC29BF46D70041B960 /* VBBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBBrowserView.m; sourceTree = "<group>"; };
+		E707E8AE29BF46F00041B960 /* VBScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBScrollView.h; sourceTree = "<group>"; };
+		E707E8AF29BF46F00041B960 /* VBScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBScrollView.m; sourceTree = "<group>"; };
+		E707E8B429BF47050041B960 /* VBTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBTableView.h; sourceTree = "<group>"; };
+		E707E8B529BF47050041B960 /* VBTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBTableView.m; sourceTree = "<group>"; };
+		E707E8B929BF478C0041B960 /* VBVerseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBVerseViewController.m; sourceTree = "<group>"; };
+		E707E8BD29BF49BE0041B960 /* VBBrowserViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VBBrowserViewController.storyboard; sourceTree = "<group>"; };
+		E707E8C129BF4F950041B960 /* VBBrowserController-Categories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBBrowserController-Categories.m"; sourceTree = "<group>"; };
+		E707E8C429BF53070041B960 /* NSObject+LayoutConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LayoutConstraints.h"; sourceTree = "<group>"; };
+		E707E8C529BF53070041B960 /* NSObject+LayoutConstraints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LayoutConstraints.m"; sourceTree = "<group>"; };
+		E707E8C729BF54580041B960 /* VBBrowserViewController-Categories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBBrowserViewController-Categories.m"; sourceTree = "<group>"; };
+		E707E8C929BF56A70041B960 /* VBVerseStackViewController-Categories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBVerseStackViewController-Categories.m"; sourceTree = "<group>"; };
+		E707E8CB29BF58C20041B960 /* VBTestVerseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBTestVerseView.h; sourceTree = "<group>"; };
+		E707E8CC29BF58C20041B960 /* VBTestVerseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBTestVerseView.m; sourceTree = "<group>"; };
+		E707E8CE29BF58DE0041B960 /* VBTestVerseViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VBTestVerseViewController.storyboard; sourceTree = "<group>"; };
+		E707E8D429BF5D4F0041B960 /* VBVerseViewProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBVerseViewProvider.h; sourceTree = "<group>"; };
+		E707E8D529BF5E010041B960 /* VBTableView-Categories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBTableView-Categories.m"; sourceTree = "<group>"; };
+		E707E8D729BF6B510041B960 /* VBVerseReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBVerseReference.m; sourceTree = "<group>"; };
+		E707E8DC29BF81FD0041B960 /* VBVerseViewController+addtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VBVerseViewController+addtions.h"; sourceTree = "<group>"; };
+		E707E8DD29BF81FD0041B960 /* VBVerseViewController+addtions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBVerseViewController+addtions.m"; sourceTree = "<group>"; };
+		E707E8DF29BF8A7A0041B960 /* VBBrowserVCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBBrowserVCDelegate.h; sourceTree = "<group>"; };
+		E707E8E029BF8B3E0041B960 /* VBScrollView-Categories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBScrollView-Categories.m"; sourceTree = "<group>"; };
+		E7A6ABAC29C004030082166E /* VBViewAppendable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBViewAppendable.h; sourceTree = "<group>"; };
+		E7A6ABAD29C036E00082166E /* NSArray+BeyondIntercept.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+BeyondIntercept.h"; sourceTree = "<group>"; };
+		E7A6ABAE29C036E00082166E /* NSArray+BeyondIntercept.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BeyondIntercept.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E707E86629BF38EE0041B960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E707E87B29BF38EF0041B960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E707E88529BF38EF0041B960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E707E86029BF38EE0041B960 = {
+			isa = PBXGroup;
+			children = (
+				E707E86B29BF38EE0041B960 /* VBBrowserController */,
+				E707E88129BF38EF0041B960 /* VBBrowserControllerTests */,
+				E707E88B29BF38EF0041B960 /* VBBrowserControllerUITests */,
+				E707E86A29BF38EE0041B960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E707E86A29BF38EE0041B960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E707E86929BF38EE0041B960 /* VBBrowserController.app */,
+				E707E87E29BF38EF0041B960 /* VBBrowserControllerTests.xctest */,
+				E707E88829BF38EF0041B960 /* VBBrowserControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E707E86B29BF38EE0041B960 /* VBBrowserController */ = {
+			isa = PBXGroup;
+			children = (
+				E707E89B29BF39000041B960 /* VBVerseBrowser */,
+				E707E86C29BF38EE0041B960 /* AppDelegate.h */,
+				E707E86D29BF38EE0041B960 /* AppDelegate.m */,
+				E707E86F29BF38EE0041B960 /* ViewController.h */,
+				E707E87029BF38EE0041B960 /* ViewController.m */,
+				E707E87229BF38EF0041B960 /* Assets.xcassets */,
+				E707E87429BF38EF0041B960 /* Main.storyboard */,
+				E707E87729BF38EF0041B960 /* main.m */,
+				E707E87929BF38EF0041B960 /* VBBrowserController.entitlements */,
+			);
+			path = VBBrowserController;
+			sourceTree = "<group>";
+		};
+		E707E88129BF38EF0041B960 /* VBBrowserControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E707E88229BF38EF0041B960 /* VBBrowserControllerTests.m */,
+			);
+			path = VBBrowserControllerTests;
+			sourceTree = "<group>";
+		};
+		E707E88B29BF38EF0041B960 /* VBBrowserControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E707E88C29BF38EF0041B960 /* VBBrowserControllerUITests.m */,
+				E707E88E29BF38EF0041B960 /* VBBrowserControllerUITestsLaunchTests.m */,
+			);
+			path = VBBrowserControllerUITests;
+			sourceTree = "<group>";
+		};
+		E707E89B29BF39000041B960 /* VBVerseBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E707E89C29BF45350041B960 /* APIs */,
+				E707E8B729BF472D0041B960 /* Temporaries */,
+				E707E89D29BF453E0041B960 /* Sources */,
+			);
+			path = VBVerseBrowser;
+			sourceTree = "<group>";
+		};
+		E707E89C29BF45350041B960 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				E707E89E29BF45570041B960 /* VBBrowserController.h */,
+				E707E8A029BF45570041B960 /* VBVerseViewController.h */,
+				E707E89F29BF45570041B960 /* VBVerseReference.h */,
+				E707E8D729BF6B510041B960 /* VBVerseReference.m */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		E707E89D29BF453E0041B960 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E707E8C329BF52DF0041B960 /* Additions */,
+				E707E8A129BF45CA0041B960 /* VBBrowserController.m */,
+				E707E8C129BF4F950041B960 /* VBBrowserController-Categories.m */,
+				E707E8A629BF468F0041B960 /* BrowserVC */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E707E8A629BF468F0041B960 /* BrowserVC */ = {
+			isa = PBXGroup;
+			children = (
+				E707E8A329BF46730041B960 /* VBBrowserViewController.h */,
+				E707E8A429BF46730041B960 /* VBBrowserViewController.m */,
+				E707E8DF29BF8A7A0041B960 /* VBBrowserVCDelegate.h */,
+				E707E8C729BF54580041B960 /* VBBrowserViewController-Categories.m */,
+				E707E8BD29BF49BE0041B960 /* VBBrowserViewController.storyboard */,
+				E707E8AB29BF46D70041B960 /* VBBrowserView.h */,
+				E707E8AC29BF46D70041B960 /* VBBrowserView.m */,
+				E7A6ABAC29C004030082166E /* VBViewAppendable.h */,
+				E707E8AE29BF46F00041B960 /* VBScrollView.h */,
+				E707E8AF29BF46F00041B960 /* VBScrollView.m */,
+				E707E8E029BF8B3E0041B960 /* VBScrollView-Categories.m */,
+				E707E8A729BF469C0041B960 /* VerseStackVC */,
+			);
+			path = BrowserVC;
+			sourceTree = "<group>";
+		};
+		E707E8A729BF469C0041B960 /* VerseStackVC */ = {
+			isa = PBXGroup;
+			children = (
+				E707E8A829BF46BF0041B960 /* VBVerseStackViewController.h */,
+				E707E8A929BF46BF0041B960 /* VBVerseStackViewController.m */,
+				E707E8C929BF56A70041B960 /* VBVerseStackViewController-Categories.m */,
+				E707E8D429BF5D4F0041B960 /* VBVerseViewProvider.h */,
+				E707E8DC29BF81FD0041B960 /* VBVerseViewController+addtions.h */,
+				E707E8DD29BF81FD0041B960 /* VBVerseViewController+addtions.m */,
+				E707E8B429BF47050041B960 /* VBTableView.h */,
+				E707E8B529BF47050041B960 /* VBTableView.m */,
+				E707E8D529BF5E010041B960 /* VBTableView-Categories.m */,
+			);
+			path = VerseStackVC;
+			sourceTree = "<group>";
+		};
+		E707E8B729BF472D0041B960 /* Temporaries */ = {
+			isa = PBXGroup;
+			children = (
+				E707E8B929BF478C0041B960 /* VBVerseViewController.m */,
+				E707E8CB29BF58C20041B960 /* VBTestVerseView.h */,
+				E707E8CC29BF58C20041B960 /* VBTestVerseView.m */,
+				E707E8CE29BF58DE0041B960 /* VBTestVerseViewController.storyboard */,
+			);
+			path = Temporaries;
+			sourceTree = "<group>";
+		};
+		E707E8C329BF52DF0041B960 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				E707E8C429BF53070041B960 /* NSObject+LayoutConstraints.h */,
+				E707E8C529BF53070041B960 /* NSObject+LayoutConstraints.m */,
+				E7A6ABAD29C036E00082166E /* NSArray+BeyondIntercept.h */,
+				E7A6ABAE29C036E00082166E /* NSArray+BeyondIntercept.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E707E86829BF38EE0041B960 /* VBBrowserController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E707E89229BF38EF0041B960 /* Build configuration list for PBXNativeTarget "VBBrowserController" */;
+			buildPhases = (
+				E707E86529BF38EE0041B960 /* Sources */,
+				E707E86629BF38EE0041B960 /* Frameworks */,
+				E707E86729BF38EE0041B960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VBBrowserController;
+			productName = VBBrowserController;
+			productReference = E707E86929BF38EE0041B960 /* VBBrowserController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E707E87D29BF38EF0041B960 /* VBBrowserControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E707E89529BF38EF0041B960 /* Build configuration list for PBXNativeTarget "VBBrowserControllerTests" */;
+			buildPhases = (
+				E707E87A29BF38EF0041B960 /* Sources */,
+				E707E87B29BF38EF0041B960 /* Frameworks */,
+				E707E87C29BF38EF0041B960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E707E88029BF38EF0041B960 /* PBXTargetDependency */,
+			);
+			name = VBBrowserControllerTests;
+			productName = VBBrowserControllerTests;
+			productReference = E707E87E29BF38EF0041B960 /* VBBrowserControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E707E88729BF38EF0041B960 /* VBBrowserControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E707E89829BF38EF0041B960 /* Build configuration list for PBXNativeTarget "VBBrowserControllerUITests" */;
+			buildPhases = (
+				E707E88429BF38EF0041B960 /* Sources */,
+				E707E88529BF38EF0041B960 /* Frameworks */,
+				E707E88629BF38EF0041B960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E707E88A29BF38EF0041B960 /* PBXTargetDependency */,
+			);
+			name = VBBrowserControllerUITests;
+			productName = VBBrowserControllerUITests;
+			productReference = E707E88829BF38EF0041B960 /* VBBrowserControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E707E86129BF38EE0041B960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E707E86829BF38EE0041B960 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E707E87D29BF38EF0041B960 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E707E86829BF38EE0041B960;
+					};
+					E707E88729BF38EF0041B960 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E707E86829BF38EE0041B960;
+					};
+				};
+			};
+			buildConfigurationList = E707E86429BF38EE0041B960 /* Build configuration list for PBXProject "VBBrowserController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E707E86029BF38EE0041B960;
+			productRefGroup = E707E86A29BF38EE0041B960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E707E86829BF38EE0041B960 /* VBBrowserController */,
+				E707E87D29BF38EF0041B960 /* VBBrowserControllerTests */,
+				E707E88729BF38EF0041B960 /* VBBrowserControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E707E86729BF38EE0041B960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707E8BE29BF49BE0041B960 /* VBBrowserViewController.storyboard in Resources */,
+				E707E87329BF38EF0041B960 /* Assets.xcassets in Resources */,
+				E707E8CF29BF58DE0041B960 /* VBTestVerseViewController.storyboard in Resources */,
+				E707E87629BF38EF0041B960 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E707E87C29BF38EF0041B960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E707E88629BF38EF0041B960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E707E86529BF38EE0041B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707E8C229BF4F950041B960 /* VBBrowserController-Categories.m in Sources */,
+				E707E8D629BF5E010041B960 /* VBTableView-Categories.m in Sources */,
+				E707E8A229BF45CA0041B960 /* VBBrowserController.m in Sources */,
+				E707E87129BF38EE0041B960 /* ViewController.m in Sources */,
+				E707E8DE29BF81FD0041B960 /* VBVerseViewController+addtions.m in Sources */,
+				E707E8D829BF6B510041B960 /* VBVerseReference.m in Sources */,
+				E707E8CD29BF58C20041B960 /* VBTestVerseView.m in Sources */,
+				E707E8B629BF47050041B960 /* VBTableView.m in Sources */,
+				E707E87829BF38EF0041B960 /* main.m in Sources */,
+				E707E8B029BF46F00041B960 /* VBScrollView.m in Sources */,
+				E707E8AA29BF46BF0041B960 /* VBVerseStackViewController.m in Sources */,
+				E707E8C629BF53070041B960 /* NSObject+LayoutConstraints.m in Sources */,
+				E707E8AD29BF46D70041B960 /* VBBrowserView.m in Sources */,
+				E7A6ABAF29C036E00082166E /* NSArray+BeyondIntercept.m in Sources */,
+				E707E86E29BF38EE0041B960 /* AppDelegate.m in Sources */,
+				E707E8E129BF8B3E0041B960 /* VBScrollView-Categories.m in Sources */,
+				E707E8BA29BF478C0041B960 /* VBVerseViewController.m in Sources */,
+				E707E8A529BF46730041B960 /* VBBrowserViewController.m in Sources */,
+				E707E8CA29BF56A70041B960 /* VBVerseStackViewController-Categories.m in Sources */,
+				E707E8C829BF54580041B960 /* VBBrowserViewController-Categories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E707E87A29BF38EF0041B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707E88329BF38EF0041B960 /* VBBrowserControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E707E88429BF38EF0041B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707E88D29BF38EF0041B960 /* VBBrowserControllerUITests.m in Sources */,
+				E707E88F29BF38EF0041B960 /* VBBrowserControllerUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E707E88029BF38EF0041B960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E707E86829BF38EE0041B960 /* VBBrowserController */;
+			targetProxy = E707E87F29BF38EF0041B960 /* PBXContainerItemProxy */;
+		};
+		E707E88A29BF38EF0041B960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E707E86829BF38EE0041B960 /* VBBrowserController */;
+			targetProxy = E707E88929BF38EF0041B960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E707E87429BF38EF0041B960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E707E87529BF38EF0041B960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E707E89029BF38EF0041B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E707E89129BF38EF0041B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E707E89329BF38EF0041B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VBBrowserController/VBBrowserController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VBBrowserController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		E707E89429BF38EF0041B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VBBrowserController/VBBrowserController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VBBrowserController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		E707E89629BF38EF0041B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VBBrowserControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBBrowserController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VBBrowserController";
+			};
+			name = Debug;
+		};
+		E707E89729BF38EF0041B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VBBrowserControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBBrowserController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VBBrowserController";
+			};
+			name = Release;
+		};
+		E707E89929BF38EF0041B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VBBrowserControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = VBBrowserController;
+			};
+			name = Debug;
+		};
+		E707E89A29BF38EF0041B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VBBrowserControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = VBBrowserController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E707E86429BF38EE0041B960 /* Build configuration list for PBXProject "VBBrowserController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E707E89029BF38EF0041B960 /* Debug */,
+				E707E89129BF38EF0041B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E707E89229BF38EF0041B960 /* Build configuration list for PBXNativeTarget "VBBrowserController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E707E89329BF38EF0041B960 /* Debug */,
+				E707E89429BF38EF0041B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E707E89529BF38EF0041B960 /* Build configuration list for PBXNativeTarget "VBBrowserControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E707E89629BF38EF0041B960 /* Debug */,
+				E707E89729BF38EF0041B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E707E89829BF38EF0041B960 /* Build configuration list for PBXNativeTarget "VBBrowserControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E707E89929BF38EF0041B960 /* Debug */,
+				E707E89A29BF38EF0041B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E707E86129BF38EE0041B960 /* Project object */;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="VBWordCard">
+            <connections>
+                <outlet property="contentView" destination="c22-O7-iKe" id="JcU-MV-DcI"/>
+                <outlet property="heightConstraint" destination="oZ8-js-tNg" id="ZlA-nH-1CT"/>
+                <outlet property="viewMask" destination="Mif-J7-uzj" id="muO-o9-ye9"/>
+                <outlet property="widthConstraint" destination="WDG-gr-aSk" id="rmR-jf-Llv"/>
+                <outlet property="wordLabelView" destination="LrL-cL-CMd" id="t7Q-RL-hjH"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="74"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="LrL-cL-CMd" customClass="VBWordLabelView">
+                    <rect key="frame" x="8" y="8" width="164" height="58"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Mif-J7-uzj" customClass="VBViewMask">
+                    <rect key="frame" x="8" y="8" width="164" height="58"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="LrL-cL-CMd" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="88V-Ib-Tnh"/>
+                <constraint firstAttribute="trailing" secondItem="LrL-cL-CMd" secondAttribute="trailing" constant="8" id="FCx-mC-5Mg"/>
+                <constraint firstItem="Mif-J7-uzj" firstAttribute="trailing" secondItem="LrL-cL-CMd" secondAttribute="trailing" id="MXv-0i-abj"/>
+                <constraint firstItem="LrL-cL-CMd" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="QBZ-Yq-Wh4"/>
+                <constraint firstAttribute="width" constant="180" id="WDG-gr-aSk"/>
+                <constraint firstItem="Mif-J7-uzj" firstAttribute="leading" secondItem="LrL-cL-CMd" secondAttribute="leading" id="ZQr-m1-PJe"/>
+                <constraint firstItem="Mif-J7-uzj" firstAttribute="bottom" secondItem="LrL-cL-CMd" secondAttribute="bottom" id="gfJ-Um-8QW"/>
+                <constraint firstAttribute="height" constant="74" id="oZ8-js-tNg"/>
+                <constraint firstAttribute="bottom" secondItem="LrL-cL-CMd" secondAttribute="bottom" constant="8" id="rnb-Tj-e6v"/>
+                <constraint firstItem="Mif-J7-uzj" firstAttribute="top" secondItem="LrL-cL-CMd" secondAttribute="top" id="uVr-kp-Rdf"/>
+            </constraints>
+            <point key="canvasLocation" x="267" y="-108"/>
+        </customView>
+    </objects>
+</document>

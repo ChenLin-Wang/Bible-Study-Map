@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="bU7-R8-ocO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Browser View Controller-->
+        <scene sceneID="PEd-7d-5j0">
+            <objects>
+                <viewController id="bU7-R8-ocO" customClass="VBBrowserViewController" sceneMemberID="viewController">
+                    <view key="view" id="tOy-S4-hL0" customClass="VBBrowserView">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2E-78-HPr" customClass="VBScrollView">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <clipView key="contentView" id="jsw-bD-2T2">
+                                    <rect key="frame" x="1" y="1" width="448" height="298"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view id="oVf-Th-F9B">
+                                            <rect key="frame" x="0.0" y="0.0" width="433" height="283"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="aAx-JK-hCc">
+                                    <rect key="frame" x="1" y="283" width="448" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="YeS-5c-To5">
+                                    <rect key="frame" x="433" y="1" width="16" height="298"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="o2E-78-HPr" secondAttribute="trailing" id="IdU-E5-hT1"/>
+                            <constraint firstItem="o2E-78-HPr" firstAttribute="top" secondItem="tOy-S4-hL0" secondAttribute="top" id="a74-hg-Y2F"/>
+                            <constraint firstAttribute="bottom" secondItem="o2E-78-HPr" secondAttribute="bottom" id="gJx-eV-AN0"/>
+                            <constraint firstItem="o2E-78-HPr" firstAttribute="leading" secondItem="tOy-S4-hL0" secondAttribute="leading" id="u1u-Rd-YiE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="131"/>
+        </scene>
+    </scenes>
+</document>
