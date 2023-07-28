@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="bU7-R8-ocO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Verse View Controller-->
+        <scene sceneID="PEd-7d-5j0">
+            <objects>
+                <viewController id="bU7-R8-ocO" customClass="VerseViewController" customModule="VerseView_D_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="tOy-S4-hL0" customClass="VerseView" customModule="VerseView_D_Demo" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="357"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvn-Ul-sA8">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="357"/>
+                                <clipView key="contentView" id="3Ns-M6-FJE">
+                                    <rect key="frame" x="1" y="1" width="448" height="355"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view id="6Cc-pI-JA2">
+                                            <rect key="frame" x="0.0" y="0.0" width="433" height="340"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="J17-3C-avT">
+                                    <rect key="frame" x="1" y="340" width="448" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="dD3-wb-dlJ">
+                                    <rect key="frame" x="433" y="1" width="16" height="355"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="QTT-jN-3SU">
+                                <rect key="frame" x="0.0" y="307" width="450" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xj9-J3-FlT"/>
+                                </constraints>
+                            </customView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Mel-Ui-JKv">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="306"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VOx-IA-p39">
+                                        <rect key="frame" x="418" y="272" width="24" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="VOx-IA-p39" secondAttribute="height" id="Z3W-Y6-tQj"/>
+                                            <constraint firstAttribute="width" constant="24" id="tYb-OT-ufx"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSAddTemplate" catalog="system" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="Jna-3L-7Zh">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system" size="16"/>
+                                        </buttonCell>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="VOx-IA-p39" secondAttribute="trailing" constant="8" id="9oF-3x-0lb"/>
+                                    <constraint firstItem="VOx-IA-p39" firstAttribute="top" secondItem="Mel-Ui-JKv" secondAttribute="top" constant="8" id="CC0-x7-fNw"/>
+                                </constraints>
+                            </customView>
+                            <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="gJr-5H-hsT">
+                                <rect key="frame" x="0.0" y="304" width="450" height="5"/>
+                            </box>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Lvn-Ul-sA8" secondAttribute="bottom" id="Cdc-t4-gMq"/>
+                            <constraint firstAttribute="trailing" secondItem="QTT-jN-3SU" secondAttribute="trailing" id="Cs3-Se-OTW"/>
+                            <constraint firstItem="QTT-jN-3SU" firstAttribute="leading" secondItem="tOy-S4-hL0" secondAttribute="leading" id="DSD-Hs-qeh"/>
+                            <constraint firstItem="Lvn-Ul-sA8" firstAttribute="top" secondItem="tOy-S4-hL0" secondAttribute="top" id="FRD-0w-Uvf"/>
+                            <constraint firstAttribute="bottom" secondItem="Mel-Ui-JKv" secondAttribute="bottom" id="Izi-1b-379"/>
+                            <constraint firstItem="Lvn-Ul-sA8" firstAttribute="leading" secondItem="tOy-S4-hL0" secondAttribute="leading" id="N0F-bf-zGb"/>
+                            <constraint firstItem="QTT-jN-3SU" firstAttribute="top" secondItem="tOy-S4-hL0" secondAttribute="top" id="QNI-BP-Qmo"/>
+                            <constraint firstAttribute="trailing" secondItem="Lvn-Ul-sA8" secondAttribute="trailing" id="RJL-QI-2rW"/>
+                            <constraint firstItem="Mel-Ui-JKv" firstAttribute="top" secondItem="gJr-5H-hsT" secondAttribute="bottom" id="WTl-OY-dAM"/>
+                            <constraint firstItem="Mel-Ui-JKv" firstAttribute="leading" secondItem="tOy-S4-hL0" secondAttribute="leading" id="Z5O-lF-aat"/>
+                            <constraint firstItem="gJr-5H-hsT" firstAttribute="leading" secondItem="tOy-S4-hL0" secondAttribute="leading" id="e8k-EA-8WP"/>
+                            <constraint firstItem="gJr-5H-hsT" firstAttribute="top" secondItem="QTT-jN-3SU" secondAttribute="bottom" id="rFk-NW-G5n"/>
+                            <constraint firstAttribute="trailing" secondItem="Mel-Ui-JKv" secondAttribute="trailing" id="v3h-lQ-unN"/>
+                            <constraint firstAttribute="trailing" secondItem="gJr-5H-hsT" secondAttribute="trailing" id="xyo-hq-2yi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="284.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NSAddTemplate" catalog="system" width="26" height="24"/>
+    </resources>
+</document>

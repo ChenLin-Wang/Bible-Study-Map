@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="bU7-R8-ocO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Verse Browse Controller-->
+        <scene sceneID="PEd-7d-5j0">
+            <objects>
+                <viewController id="bU7-R8-ocO" customClass="VerseBrowseController" customModule="VerseBrowseView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="tOy-S4-hL0">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAT-E4-md3" customClass="VerseBrowseScrollView" customModule="VerseBrowseView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <clipView key="contentView" id="NeZ-gw-886" customClass="VerseBrowseClipView" customModule="VerseBrowseView" customModuleProvider="target">
+                                    <rect key="frame" x="1" y="1" width="448" height="298"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qhs-is-Acd" customClass="VerseBrowseDocumentView" customModule="VerseBrowseView" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="452" height="302"/>
+                                            <subviews>
+                                                <customView horizontalHuggingPriority="200" verticalHuggingPriority="200" horizontalCompressionResistancePriority="500" verticalCompressionResistancePriority="500" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncL-YU-PP2" customClass="VerseBrowseView" customModule="VerseBrowseView" customModuleProvider="target">
+                                                    <rect key="frame" x="50" y="50" width="352" height="202"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="500" id="4YQ-uq-mYt"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="400" id="wFc-5E-9qG"/>
+                                                    </constraints>
+                                                </customView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="ncL-YU-PP2" secondAttribute="bottom" constant="50" id="Wvd-1N-OTT"/>
+                                                <constraint firstItem="ncL-YU-PP2" firstAttribute="top" secondItem="qhs-is-Acd" secondAttribute="top" constant="50" id="fqk-h7-3fM"/>
+                                                <constraint firstAttribute="trailing" secondItem="ncL-YU-PP2" secondAttribute="trailing" constant="50" id="hhj-uM-azF"/>
+                                                <constraint firstItem="ncL-YU-PP2" firstAttribute="leading" secondItem="qhs-is-Acd" secondAttribute="leading" constant="50" id="iJc-TQ-nJz"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="qhs-is-Acd" firstAttribute="leading" secondItem="NeZ-gw-886" secondAttribute="leading" id="D0D-dw-KR1"/>
+                                        <constraint firstAttribute="bottom" secondItem="qhs-is-Acd" secondAttribute="bottom" id="UQi-W0-xk3"/>
+                                    </constraints>
+                                    <color key="backgroundColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="2xz-Bz-Y4a">
+                                    <rect key="frame" x="1" y="283" width="448" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="0.5" horizontal="NO" id="RJA-KC-Swc">
+                                    <rect key="frame" x="433" y="1" width="16" height="298"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="cAT-E4-md3" firstAttribute="top" secondItem="tOy-S4-hL0" secondAttribute="top" id="6DQ-Ol-pEa"/>
+                            <constraint firstItem="cAT-E4-md3" firstAttribute="leading" secondItem="tOy-S4-hL0" secondAttribute="leading" id="Tex-Xo-83Q"/>
+                            <constraint firstAttribute="bottom" secondItem="cAT-E4-md3" secondAttribute="bottom" id="vrU-e9-sgL"/>
+                            <constraint firstAttribute="trailing" secondItem="cAT-E4-md3" secondAttribute="trailing" id="z5z-e1-Mvh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="131"/>
+        </scene>
+        <!--Page Controller-->
+        <scene sceneID="q2D-kW-MnT">
+            <objects>
+                <pagecontroller id="ykA-LK-9n1" sceneMemberID="viewController">
+                    <view key="view" id="eVN-S7-l8s">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </pagecontroller>
+                <customObject id="9qW-dW-0d5" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839" y="311"/>
+        </scene>
+    </scenes>
+</document>

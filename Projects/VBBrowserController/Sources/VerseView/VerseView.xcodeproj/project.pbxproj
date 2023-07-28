@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E717DB8B29DEBEBD00F5B662 /* VBWordGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = E717DB8A29DEBEBD00F5B662 /* VBWordGroupController.m */; };
+		E7BA7F6A29E6559B00F3E0B4 /* VBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BA7F6929E6559B00F3E0B4 /* VBTextView.m */; };
+		E7BDD7D129E30A3700B513D6 /* VBTextViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDD7D029E30A3700B513D6 /* VBTextViewMask.m */; };
+		E7C794EA29DD1EEC00955423 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C794E929DD1EEC00955423 /* AppDelegate.m */; };
+		E7C794ED29DD1EEC00955423 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C794EC29DD1EEC00955423 /* ViewController.m */; };
+		E7C794EF29DD1EEE00955423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C794EE29DD1EEE00955423 /* Assets.xcassets */; };
+		E7C794F229DD1EEE00955423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C794F029DD1EEE00955423 /* Main.storyboard */; };
+		E7C794F429DD1EEE00955423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C794F329DD1EEE00955423 /* main.m */; };
+		E7C794FE29DD2E9800955423 /* VBVerseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C794FD29DD2E9800955423 /* VBVerseViewController.m */; };
+		E7C7950229DD2EBF00955423 /* VBVerseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7950129DD2EBF00955423 /* VBVerseView.m */; };
+		E7C7950429DD2EE700955423 /* VBVerseViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C7950329DD2EE700955423 /* VBVerseViewController.storyboard */; };
+		E7C7950729DD2FC400955423 /* VBWordBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7950629DD2FC400955423 /* VBWordBrowser.m */; };
+		E7C7950A29DD334700955423 /* VBWordCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7950929DD334700955423 /* VBWordCard.m */; };
+		E7C7950D29DD335200955423 /* VBCommentCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7950C29DD335200955423 /* VBCommentCard.m */; };
+		E7C7952229DD365E00955423 /* CDSqlite3TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7950F29DD365E00955423 /* CDSqlite3TableView.m */; };
+		E7C7952329DD365E00955423 /* CDEditorForWhereas_connect.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951029DD365E00955423 /* CDEditorForWhereas_connect.m */; };
+		E7C7952429DD365E00955423 /* CDEditorForWhereas_connect.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C7951129DD365E00955423 /* CDEditorForWhereas_connect.xib */; };
+		E7C7952529DD365E00955423 /* CDSelectRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951329DD365E00955423 /* CDSelectRecords.m */; };
+		E7C7952629DD365E00955423 /* CDDatabaseUndoAtomic.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951529DD365E00955423 /* CDDatabaseUndoAtomic.m */; };
+		E7C7952729DD365E00955423 /* CDField.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951629DD365E00955423 /* CDField.m */; };
+		E7C7952829DD365E00955423 /* CDSQLite3OperaterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951B29DD365E00955423 /* CDSQLite3OperaterDelegate.m */; };
+		E7C7952929DD365E00955423 /* CDUndomanger.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951D29DD365E00955423 /* CDUndomanger.m */; };
+		E7C7952A29DD365E00955423 /* CDRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7951F29DD365E00955423 /* CDRecord.m */; };
+		E7C7952B29DD365E00955423 /* CDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7952029DD365E00955423 /* CDTextField.m */; };
+		E7C7953C29DD42F500955423 /* VBWordCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C7953B29DD42F500955423 /* VBWordCard.xib */; };
+		E7C7953E29DD42FD00955423 /* VBCommentCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C7953D29DD42FD00955423 /* VBCommentCard.xib */; };
+		E7C7954129DD43DD00955423 /* VBWord.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7954029DD43DD00955423 /* VBWord.m */; };
+		E7C7954429DD506400955423 /* VBVerseReference.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7954229DD506400955423 /* VBVerseReference.m */; };
+		E7C7954729DD57B200955423 /* VBWordGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7954629DD57B200955423 /* VBWordGroup.m */; };
+		E7C7954A29DD72D400955423 /* NSObject+LayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7954929DD72D400955423 /* NSObject+LayoutConstraints.m */; };
+		E7C7955029DDA4D500955423 /* VBSelectableCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7954F29DDA4D500955423 /* VBSelectableCard.m */; };
+		E7C7955629DDA78400955423 /* VBMultiSelectionBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7955529DDA78400955423 /* VBMultiSelectionBox.m */; };
+		E7E8217F29E1E4B00026CC6D /* VBComment.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E8217E29E1E4B00026CC6D /* VBComment.m */; };
+		E7EF96AB29EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF96AA29EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E717DB8929DEBEBD00F5B662 /* VBWordGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBWordGroupController.h; sourceTree = "<group>"; };
+		E717DB8A29DEBEBD00F5B662 /* VBWordGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBWordGroupController.m; sourceTree = "<group>"; };
+		E7BA7F6829E6559B00F3E0B4 /* VBTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBTextView.h; sourceTree = "<group>"; };
+		E7BA7F6929E6559B00F3E0B4 /* VBTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBTextView.m; sourceTree = "<group>"; };
+		E7BDD7CF29E30A3700B513D6 /* VBTextViewMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBTextViewMask.h; sourceTree = "<group>"; };
+		E7BDD7D029E30A3700B513D6 /* VBTextViewMask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBTextViewMask.m; sourceTree = "<group>"; };
+		E7C794E529DD1EEC00955423 /* VerseView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerseView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C794E829DD1EEC00955423 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7C794E929DD1EEC00955423 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7C794EB29DD1EEC00955423 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7C794EC29DD1EEC00955423 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7C794EE29DD1EEE00955423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7C794F129DD1EEE00955423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7C794F329DD1EEE00955423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7C794F529DD1EEE00955423 /* VerseView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VerseView.entitlements; sourceTree = "<group>"; };
+		E7C794FC29DD2E9800955423 /* VBVerseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBVerseViewController.h; sourceTree = "<group>"; };
+		E7C794FD29DD2E9800955423 /* VBVerseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBVerseViewController.m; sourceTree = "<group>"; };
+		E7C7950029DD2EBF00955423 /* VBVerseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBVerseView.h; sourceTree = "<group>"; };
+		E7C7950129DD2EBF00955423 /* VBVerseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBVerseView.m; sourceTree = "<group>"; };
+		E7C7950329DD2EE700955423 /* VBVerseViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VBVerseViewController.storyboard; sourceTree = "<group>"; };
+		E7C7950529DD2FC400955423 /* VBWordBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBWordBrowser.h; sourceTree = "<group>"; };
+		E7C7950629DD2FC400955423 /* VBWordBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBWordBrowser.m; sourceTree = "<group>"; };
+		E7C7950829DD334700955423 /* VBWordCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBWordCard.h; sourceTree = "<group>"; };
+		E7C7950929DD334700955423 /* VBWordCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBWordCard.m; sourceTree = "<group>"; };
+		E7C7950B29DD335200955423 /* VBCommentCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBCommentCard.h; sourceTree = "<group>"; };
+		E7C7950C29DD335200955423 /* VBCommentCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBCommentCard.m; sourceTree = "<group>"; };
+		E7C7950F29DD365E00955423 /* CDSqlite3TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSqlite3TableView.m; sourceTree = "<group>"; };
+		E7C7951029DD365E00955423 /* CDEditorForWhereas_connect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDEditorForWhereas_connect.m; sourceTree = "<group>"; };
+		E7C7951129DD365E00955423 /* CDEditorForWhereas_connect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDEditorForWhereas_connect.xib; sourceTree = "<group>"; };
+		E7C7951229DD365E00955423 /* CDUndomanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDUndomanger.h; sourceTree = "<group>"; };
+		E7C7951329DD365E00955423 /* CDSelectRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSelectRecords.m; sourceTree = "<group>"; };
+		E7C7951429DD365E00955423 /* CDSQLite3OperaterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSQLite3OperaterDelegate.h; sourceTree = "<group>"; };
+		E7C7951529DD365E00955423 /* CDDatabaseUndoAtomic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDatabaseUndoAtomic.m; sourceTree = "<group>"; };
+		E7C7951629DD365E00955423 /* CDField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDField.m; sourceTree = "<group>"; };
+		E7C7951729DD365E00955423 /* CDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTextField.h; sourceTree = "<group>"; };
+		E7C7951829DD365E00955423 /* CDRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRecord.h; sourceTree = "<group>"; };
+		E7C7951929DD365E00955423 /* CDEditorForWhereas_connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDEditorForWhereas_connect.h; sourceTree = "<group>"; };
+		E7C7951A29DD365E00955423 /* CDSqlite3TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSqlite3TableView.h; sourceTree = "<group>"; };
+		E7C7951B29DD365E00955423 /* CDSQLite3OperaterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSQLite3OperaterDelegate.m; sourceTree = "<group>"; };
+		E7C7951C29DD365E00955423 /* CDSelectRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSelectRecords.h; sourceTree = "<group>"; };
+		E7C7951D29DD365E00955423 /* CDUndomanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDUndomanger.m; sourceTree = "<group>"; };
+		E7C7951E29DD365E00955423 /* CDDatabaseUndoAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDatabaseUndoAtomic.h; sourceTree = "<group>"; };
+		E7C7951F29DD365E00955423 /* CDRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRecord.m; sourceTree = "<group>"; };
+		E7C7952029DD365E00955423 /* CDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTextField.m; sourceTree = "<group>"; };
+		E7C7952129DD365E00955423 /* CDField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDField.h; sourceTree = "<group>"; };
+		E7C7953B29DD42F500955423 /* VBWordCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VBWordCard.xib; sourceTree = "<group>"; };
+		E7C7953D29DD42FD00955423 /* VBCommentCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VBCommentCard.xib; sourceTree = "<group>"; };
+		E7C7953F29DD43DD00955423 /* VBWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBWord.h; sourceTree = "<group>"; };
+		E7C7954029DD43DD00955423 /* VBWord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBWord.m; sourceTree = "<group>"; };
+		E7C7954229DD506400955423 /* VBVerseReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBVerseReference.m; sourceTree = "<group>"; };
+		E7C7954329DD506400955423 /* VBVerseReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBVerseReference.h; sourceTree = "<group>"; };
+		E7C7954529DD57B200955423 /* VBWordGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBWordGroup.h; sourceTree = "<group>"; };
+		E7C7954629DD57B200955423 /* VBWordGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBWordGroup.m; sourceTree = "<group>"; };
+		E7C7954829DD72D300955423 /* NSObject+LayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LayoutConstraints.h"; sourceTree = "<group>"; };
+		E7C7954929DD72D400955423 /* NSObject+LayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LayoutConstraints.m"; sourceTree = "<group>"; };
+		E7C7954E29DDA4D500955423 /* VBSelectableCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBSelectableCard.h; sourceTree = "<group>"; };
+		E7C7954F29DDA4D500955423 /* VBSelectableCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBSelectableCard.m; sourceTree = "<group>"; };
+		E7C7955429DDA78400955423 /* VBMultiSelectionBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBMultiSelectionBox.h; sourceTree = "<group>"; };
+		E7C7955529DDA78400955423 /* VBMultiSelectionBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBMultiSelectionBox.m; sourceTree = "<group>"; };
+		E7E8217D29E1E4B00026CC6D /* VBComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBComment.h; sourceTree = "<group>"; };
+		E7E8217E29E1E4B00026CC6D /* VBComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBComment.m; sourceTree = "<group>"; };
+		E7EF96A929EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VBWordBrowser+DatabaseOperates.h"; sourceTree = "<group>"; };
+		E7EF96AA29EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VBWordBrowser+DatabaseOperates.m"; sourceTree = "<group>"; };
+		E7EF96AD29EFB6FD0069D492 /* ANSI Keys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANSI Keys.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C794E229DD1EEC00955423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E717DB8C29DEC4C600F5B662 /* WordGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E717DB8929DEBEBD00F5B662 /* VBWordGroupController.h */,
+				E717DB8A29DEBEBD00F5B662 /* VBWordGroupController.m */,
+				E7C7954529DD57B200955423 /* VBWordGroup.h */,
+				E7C7954629DD57B200955423 /* VBWordGroup.m */,
+			);
+			path = WordGroup;
+			sourceTree = "<group>";
+		};
+		E7C794DC29DD1EEC00955423 = {
+			isa = PBXGroup;
+			children = (
+				E7C794E729DD1EEC00955423 /* VerseView */,
+				E7C794E629DD1EEC00955423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C794E629DD1EEC00955423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C794E529DD1EEC00955423 /* VerseView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C794E729DD1EEC00955423 /* VerseView */ = {
+			isa = PBXGroup;
+			children = (
+				E7C794FB29DD2E6600955423 /* VerseView */,
+				E7C794E829DD1EEC00955423 /* AppDelegate.h */,
+				E7C794E929DD1EEC00955423 /* AppDelegate.m */,
+				E7C794EB29DD1EEC00955423 /* ViewController.h */,
+				E7C794EC29DD1EEC00955423 /* ViewController.m */,
+				E7C794EE29DD1EEE00955423 /* Assets.xcassets */,
+				E7C794F029DD1EEE00955423 /* Main.storyboard */,
+				E7C794F329DD1EEE00955423 /* main.m */,
+				E7C794F529DD1EEE00955423 /* VerseView.entitlements */,
+			);
+			path = VerseView;
+			sourceTree = "<group>";
+		};
+		E7C794FB29DD2E6600955423 /* VerseView */ = {
+			isa = PBXGroup;
+			children = (
+				E7C794FF29DD2EA100955423 /* Views */,
+				E7C7950E29DD365E00955423 /* Database */,
+				E7C794FC29DD2E9800955423 /* VBVerseViewController.h */,
+				E7C794FD29DD2E9800955423 /* VBVerseViewController.m */,
+				E7C7950329DD2EE700955423 /* VBVerseViewController.storyboard */,
+				E7C7950029DD2EBF00955423 /* VBVerseView.h */,
+				E7C7950129DD2EBF00955423 /* VBVerseView.m */,
+				E7C7954329DD506400955423 /* VBVerseReference.h */,
+				E7C7954229DD506400955423 /* VBVerseReference.m */,
+			);
+			path = VerseView;
+			sourceTree = "<group>";
+		};
+		E7C794FF29DD2EA100955423 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7950529DD2FC400955423 /* VBWordBrowser.h */,
+				E7C7950629DD2FC400955423 /* VBWordBrowser.m */,
+				E7EF96AD29EFB6FD0069D492 /* ANSI Keys.h */,
+				E7EF96A929EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.h */,
+				E7EF96AA29EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.m */,
+				E7C7955429DDA78400955423 /* VBMultiSelectionBox.h */,
+				E7C7955529DDA78400955423 /* VBMultiSelectionBox.m */,
+				E7C7953429DD3F6100955423 /* Cards */,
+				E717DB8C29DEC4C600F5B662 /* WordGroup */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7C7950E29DD365E00955423 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7951929DD365E00955423 /* CDEditorForWhereas_connect.h */,
+				E7C7951029DD365E00955423 /* CDEditorForWhereas_connect.m */,
+				E7C7951129DD365E00955423 /* CDEditorForWhereas_connect.xib */,
+				E7C7951A29DD365E00955423 /* CDSqlite3TableView.h */,
+				E7C7950F29DD365E00955423 /* CDSqlite3TableView.m */,
+				E7C7951229DD365E00955423 /* CDUndomanger.h */,
+				E7C7951D29DD365E00955423 /* CDUndomanger.m */,
+				E7C7951C29DD365E00955423 /* CDSelectRecords.h */,
+				E7C7951329DD365E00955423 /* CDSelectRecords.m */,
+				E7C7951E29DD365E00955423 /* CDDatabaseUndoAtomic.h */,
+				E7C7951529DD365E00955423 /* CDDatabaseUndoAtomic.m */,
+				E7C7952129DD365E00955423 /* CDField.h */,
+				E7C7951629DD365E00955423 /* CDField.m */,
+				E7C7951729DD365E00955423 /* CDTextField.h */,
+				E7C7952029DD365E00955423 /* CDTextField.m */,
+				E7C7951829DD365E00955423 /* CDRecord.h */,
+				E7C7951F29DD365E00955423 /* CDRecord.m */,
+				E7C7951429DD365E00955423 /* CDSQLite3OperaterDelegate.h */,
+				E7C7951B29DD365E00955423 /* CDSQLite3OperaterDelegate.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E7C7952D29DD388E00955423 /* WordCard */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7950829DD334700955423 /* VBWordCard.h */,
+				E7C7950929DD334700955423 /* VBWordCard.m */,
+				E7C7953B29DD42F500955423 /* VBWordCard.xib */,
+				E7C7953F29DD43DD00955423 /* VBWord.h */,
+				E7C7954029DD43DD00955423 /* VBWord.m */,
+			);
+			path = WordCard;
+			sourceTree = "<group>";
+		};
+		E7C7952E29DD389700955423 /* Comment Card */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7950B29DD335200955423 /* VBCommentCard.h */,
+				E7C7950C29DD335200955423 /* VBCommentCard.m */,
+				E7C7953D29DD42FD00955423 /* VBCommentCard.xib */,
+				E7BDD7CF29E30A3700B513D6 /* VBTextViewMask.h */,
+				E7BDD7D029E30A3700B513D6 /* VBTextViewMask.m */,
+				E7BA7F6829E6559B00F3E0B4 /* VBTextView.h */,
+				E7BA7F6929E6559B00F3E0B4 /* VBTextView.m */,
+				E7E8217D29E1E4B00026CC6D /* VBComment.h */,
+				E7E8217E29E1E4B00026CC6D /* VBComment.m */,
+			);
+			path = "Comment Card";
+			sourceTree = "<group>";
+		};
+		E7C7953429DD3F6100955423 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7953529DD3F6A00955423 /* Foundation */,
+				E7C7952D29DD388E00955423 /* WordCard */,
+				E7C7952E29DD389700955423 /* Comment Card */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E7C7953529DD3F6A00955423 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7954E29DDA4D500955423 /* VBSelectableCard.h */,
+				E7C7954F29DDA4D500955423 /* VBSelectableCard.m */,
+				E7C7954829DD72D300955423 /* NSObject+LayoutConstraints.h */,
+				E7C7954929DD72D400955423 /* NSObject+LayoutConstraints.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C794E429DD1EEC00955423 /* VerseView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C794F829DD1EEE00955423 /* Build configuration list for PBXNativeTarget "VerseView" */;
+			buildPhases = (
+				E7C794E129DD1EEC00955423 /* Sources */,
+				E7C794E229DD1EEC00955423 /* Frameworks */,
+				E7C794E329DD1EEC00955423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerseView;
+			productName = VerseView;
+			productReference = E7C794E529DD1EEC00955423 /* VerseView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C794DD29DD1EEC00955423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7C794E429DD1EEC00955423 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E7C794E029DD1EEC00955423 /* Build configuration list for PBXProject "VerseView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7C794DC29DD1EEC00955423;
+			productRefGroup = E7C794E629DD1EEC00955423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C794E429DD1EEC00955423 /* VerseView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C794E329DD1EEC00955423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C7952429DD365E00955423 /* CDEditorForWhereas_connect.xib in Resources */,
+				E7C7953C29DD42F500955423 /* VBWordCard.xib in Resources */,
+				E7C794EF29DD1EEE00955423 /* Assets.xcassets in Resources */,
+				E7C7950429DD2EE700955423 /* VBVerseViewController.storyboard in Resources */,
+				E7C794F229DD1EEE00955423 /* Main.storyboard in Resources */,
+				E7C7953E29DD42FD00955423 /* VBCommentCard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C794E129DD1EEC00955423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C7954A29DD72D400955423 /* NSObject+LayoutConstraints.m in Sources */,
+				E7C7950A29DD334700955423 /* VBWordCard.m in Sources */,
+				E7C794ED29DD1EEC00955423 /* ViewController.m in Sources */,
+				E7C794F429DD1EEE00955423 /* main.m in Sources */,
+				E7C7952829DD365E00955423 /* CDSQLite3OperaterDelegate.m in Sources */,
+				E7E8217F29E1E4B00026CC6D /* VBComment.m in Sources */,
+				E7C7952729DD365E00955423 /* CDField.m in Sources */,
+				E7C7950729DD2FC400955423 /* VBWordBrowser.m in Sources */,
+				E7C7952B29DD365E00955423 /* CDTextField.m in Sources */,
+				E7C7952629DD365E00955423 /* CDDatabaseUndoAtomic.m in Sources */,
+				E717DB8B29DEBEBD00F5B662 /* VBWordGroupController.m in Sources */,
+				E7C7955629DDA78400955423 /* VBMultiSelectionBox.m in Sources */,
+				E7C7952929DD365E00955423 /* CDUndomanger.m in Sources */,
+				E7C7952329DD365E00955423 /* CDEditorForWhereas_connect.m in Sources */,
+				E7C794FE29DD2E9800955423 /* VBVerseViewController.m in Sources */,
+				E7C794EA29DD1EEC00955423 /* AppDelegate.m in Sources */,
+				E7C7954729DD57B200955423 /* VBWordGroup.m in Sources */,
+				E7C7952A29DD365E00955423 /* CDRecord.m in Sources */,
+				E7BDD7D129E30A3700B513D6 /* VBTextViewMask.m in Sources */,
+				E7C7954129DD43DD00955423 /* VBWord.m in Sources */,
+				E7C7950229DD2EBF00955423 /* VBVerseView.m in Sources */,
+				E7C7952229DD365E00955423 /* CDSqlite3TableView.m in Sources */,
+				E7BA7F6A29E6559B00F3E0B4 /* VBTextView.m in Sources */,
+				E7C7954429DD506400955423 /* VBVerseReference.m in Sources */,
+				E7EF96AB29EFA6E70069D492 /* VBWordBrowser+DatabaseOperates.m in Sources */,
+				E7C7950D29DD335200955423 /* VBCommentCard.m in Sources */,
+				E7C7952529DD365E00955423 /* CDSelectRecords.m in Sources */,
+				E7C7955029DDA4D500955423 /* VBSelectableCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7C794F029DD1EEE00955423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7C794F129DD1EEE00955423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7C794F629DD1EEE00955423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E7C794F729DD1EEE00955423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7C794F929DD1EEE00955423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VerseView/VerseView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VerseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		E7C794FA29DD1EEE00955423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VerseView/VerseView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UMXMZCT55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJStudOrg.CLWang.VerseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C794E029DD1EEC00955423 /* Build configuration list for PBXProject "VerseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C794F629DD1EEE00955423 /* Debug */,
+				E7C794F729DD1EEE00955423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C794F829DD1EEE00955423 /* Build configuration list for PBXNativeTarget "VerseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C794F929DD1EEE00955423 /* Debug */,
+				E7C794FA29DD1EEE00955423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7C794DD29DD1EEC00955423 /* Project object */;
+}

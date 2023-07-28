@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="bU7-R8-ocO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Demo View Controller-->
+        <scene sceneID="PEd-7d-5j0">
+            <objects>
+                <viewController id="bU7-R8-ocO" customClass="DemoViewController" customModule="VerseBrowseView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" horizontalHuggingPriority="200" verticalHuggingPriority="200" horizontalCompressionResistancePriority="500" verticalCompressionResistancePriority="500" id="tOy-S4-hL0" customClass="DemoView" customModule="VerseBrowseView" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yUb-b1-3Aj">
+                                <rect key="frame" x="101" y="112" width="248" height="76"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" id="gd4-gM-09r">
+                                    <font key="font" size="24" name="Apple-Chancery"/>
+                                    <string key="title">This will be a Verse View
+Now this just is a Demo.</string>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="yUb-b1-3Aj" firstAttribute="centerY" secondItem="tOy-S4-hL0" secondAttribute="centerY" id="D3F-Mi-X30"/>
+                            <constraint firstItem="yUb-b1-3Aj" firstAttribute="centerX" secondItem="tOy-S4-hL0" secondAttribute="centerX" id="DUM-vP-piI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="131"/>
+        </scene>
+    </scenes>
+</document>

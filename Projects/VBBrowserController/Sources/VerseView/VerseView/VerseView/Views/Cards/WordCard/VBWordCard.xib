@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="VBWordCard">
+            <connections>
+                <outlet property="contentView" destination="c22-O7-iKe" id="PaV-T7-fkZ"/>
+                <outlet property="heightConstraint" destination="1to-ke-KQa" id="LOV-Ve-sFY"/>
+                <outlet property="widthConstraint" destination="Kb3-lF-Uy5" id="2VW-yU-uiC"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView appearanceType="aqua" misplaced="YES" id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Wa2-j5-pFi">
+                    <rect key="frame" x="8" y="8" width="234" height="58"/>
+                    <subviews>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xau-nR-dfX">
+                            <rect key="frame" x="-2" y="45" width="158" height="13"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="BPVWNumber" id="9nc-X9-95a">
+                                <font key="font" metaFont="system" size="10"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="self.word.BPVWNumber" id="AlV-pY-CTB"/>
+                            </connections>
+                        </textField>
+                        <textField horizontalHuggingPriority="500" verticalHuggingPriority="500" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="9ma-Qk-AEd">
+                            <rect key="frame" x="156" y="45" width="80" height="13"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="POS" id="0e7-Mp-zhl">
+                                <font key="font" metaFont="system" size="10"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="self.word.POS" id="1wF-gy-8jv"/>
+                            </connections>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="34X-fh-mg9">
+                            <rect key="frame" x="-2" y="30" width="158" height="13"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="HebrewWord" id="46f-69-noB">
+                                <font key="font" metaFont="systemBold" size="10"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="self.word.HebrewWord" id="Eju-jt-bKj"/>
+                            </connections>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bAd-1M-sGX">
+                            <rect key="frame" x="156" y="30" width="80" height="13"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="StrongNumber" id="3gJ-7O-qj0">
+                                <font key="font" metaFont="systemBold" size="10"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="self.word.StrongNumber" id="snZ-Kw-Odb"/>
+                            </connections>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gOb-76-6Fb">
+                            <rect key="frame" x="-2" y="15" width="238" height="13"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="KJVUsages" id="3PJ-9g-uLX">
+                                <font key="font" metaFont="system" size="10"/>
+                                <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="self.word.KJVUsages" id="nee-vD-W6f"/>
+                            </connections>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qe5-zN-x9l">
+                            <rect key="frame" x="-2" y="0.0" width="238" height="13"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="LocalVersion" id="h8b-tr-5FT">
+                                <font key="font" metaFont="system" size="10"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="self.word.LocalVersion" id="4UI-g0-kCu"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="34X-fh-mg9" firstAttribute="leading" secondItem="xau-nR-dfX" secondAttribute="leading" id="9Gg-cL-47b"/>
+                        <constraint firstItem="xau-nR-dfX" firstAttribute="top" secondItem="Wa2-j5-pFi" secondAttribute="top" id="ADe-PA-J6O"/>
+                        <constraint firstItem="9ma-Qk-AEd" firstAttribute="centerY" secondItem="xau-nR-dfX" secondAttribute="centerY" id="Ey8-Dy-w2M"/>
+                        <constraint firstItem="gOb-76-6Fb" firstAttribute="leading" secondItem="34X-fh-mg9" secondAttribute="leading" id="I8l-UY-iya"/>
+                        <constraint firstItem="34X-fh-mg9" firstAttribute="trailing" secondItem="xau-nR-dfX" secondAttribute="trailing" id="L9K-hj-6dK"/>
+                        <constraint firstItem="bAd-1M-sGX" firstAttribute="leading" secondItem="9ma-Qk-AEd" secondAttribute="leading" id="MEu-cW-myG"/>
+                        <constraint firstAttribute="trailing" secondItem="9ma-Qk-AEd" secondAttribute="trailing" id="PL5-Bd-yeK"/>
+                        <constraint firstItem="34X-fh-mg9" firstAttribute="top" secondItem="xau-nR-dfX" secondAttribute="bottom" constant="2" id="STZ-Bf-rxQ"/>
+                        <constraint firstAttribute="trailing" secondItem="bAd-1M-sGX" secondAttribute="trailing" id="Vc4-IK-RF1"/>
+                        <constraint firstItem="qe5-zN-x9l" firstAttribute="leading" secondItem="gOb-76-6Fb" secondAttribute="leading" id="Xvg-0k-Toy"/>
+                        <constraint firstItem="qe5-zN-x9l" firstAttribute="trailing" secondItem="gOb-76-6Fb" secondAttribute="trailing" id="aSR-m4-fC0"/>
+                        <constraint firstAttribute="bottom" secondItem="qe5-zN-x9l" secondAttribute="bottom" id="b9S-Yk-U6W"/>
+                        <constraint firstAttribute="trailing" secondItem="gOb-76-6Fb" secondAttribute="trailing" id="bN7-o2-a3o"/>
+                        <constraint firstItem="xau-nR-dfX" firstAttribute="leading" secondItem="Wa2-j5-pFi" secondAttribute="leading" id="nYg-sx-6as"/>
+                        <constraint firstItem="qe5-zN-x9l" firstAttribute="top" secondItem="gOb-76-6Fb" secondAttribute="bottom" constant="2" id="oFA-9b-VMD"/>
+                        <constraint firstItem="bAd-1M-sGX" firstAttribute="centerY" secondItem="34X-fh-mg9" secondAttribute="centerY" id="sG0-jJ-9yb"/>
+                        <constraint firstItem="9ma-Qk-AEd" firstAttribute="leading" secondItem="xau-nR-dfX" secondAttribute="trailing" constant="4" id="ta7-Cn-06f"/>
+                        <constraint firstItem="gOb-76-6Fb" firstAttribute="top" secondItem="34X-fh-mg9" secondAttribute="bottom" constant="2" id="y5V-og-yJE"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="height" constant="74" id="1to-ke-KQa"/>
+                <constraint firstAttribute="trailing" secondItem="Wa2-j5-pFi" secondAttribute="trailing" constant="8" id="9pX-7J-sWG"/>
+                <constraint firstAttribute="bottom" secondItem="Wa2-j5-pFi" secondAttribute="bottom" constant="8" id="Coo-bQ-IUE"/>
+                <constraint firstAttribute="width" constant="250" id="Kb3-lF-Uy5"/>
+                <constraint firstItem="Wa2-j5-pFi" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="bfA-Bi-e5d"/>
+                <constraint firstItem="Wa2-j5-pFi" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="eNW-Qy-quC"/>
+            </constraints>
+            <point key="canvasLocation" x="-49" y="96"/>
+        </customView>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
