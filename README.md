@@ -38,6 +38,7 @@
 - Xcode 14
 - macOS 11.0
 - Sqlite 3
+- Objective-C 以及 Swift 5
 
 
 
