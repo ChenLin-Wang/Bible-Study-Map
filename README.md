@@ -31,6 +31,12 @@
 
 
 
+### 子模块
+
+- [经文翻译编辑器--VBBrowserController](https://github.com/ChenLin-Wang/Bible-Study-Map-VBBrowserController)   已完成
+
+
+
 ### 开发环境
 
 目前只支持 macOS 11.0 以及更高
