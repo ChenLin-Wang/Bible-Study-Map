@@ -27,7 +27,7 @@
 
 - 总计划([圣经程序重写计划.graffle](https://github.com/ChenLin-Wang/Bible-Study-Map/blob/main/Diagrams/%E5%9C%A3%E7%BB%8F%E7%A8%8B%E5%BA%8F%E9%87%8D%E5%86%99%E8%AE%A1%E5%88%92.graffle))
 - 经文数据库结构([经文数据库结构.graffle](https://github.com/ChenLin-Wang/Bible-Study-Map/blob/main/Diagrams/%E7%BB%8F%E6%96%87%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%93%E6%9E%84.graffle))
-- [其他草图](https://github.com/ChenLin-Wang/Bible-Study-Map/blob/main/Diagrams/草图), [当前进度](https://github.com/ChenLin-Wang/Bible-Study-Map/blob/main/Diagrams/草图/草图进度.md)
+- [其他草图](https://github.com/ChenLin-Wang/Bible-Study-Map/blob/main/Diagrams/草图), [当前进度](https://github.com/ChenLin-Wang/Bible-Study-Map/blob/CLWang/Diagrams/草图/草图进度.md)
 
 
 
