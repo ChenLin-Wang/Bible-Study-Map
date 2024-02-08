@@ -10,7 +10,7 @@
 
 - 原文圣经(由 StrongNumber 提供)
 - 圣经阅读器(双版本对照，多版本对照，串珠式阅读，条目式阅读)
-- 模糊搜索(经文搜索，模糊搜索，拼写查找，多版本联合检索，注解检索以及快速书签搜索)
+- 搜索(经文搜索，模糊搜索，拼写查找，多版本联合检索，注解检索以及快速书签搜索)
 - 标签跳转以及跳转历史记录
 - 对原文经文的翻译，由 StrongNumber 提供原文以及单词包围，但由研经者进行翻译。为了更加方便，也考虑实现一个语法编辑器，可以帮助智能识别语法等等来辅助翻译，但决定权仍在研经者手中
 - StrongNumber 单词的翻译，提供其原文，英文释义等等，由研经者进行翻译
@@ -51,3 +51,9 @@
 ### 联系方式
 
 Email: wangchenlin2001@icloud.com
+
+
+
+### 另见
+
+[English Version(英文版)](https://github.com/ChenLin-Wang/Bible-Study-Map-VBBrowserController/blob/main/README_en.md)
