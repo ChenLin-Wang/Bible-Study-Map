@@ -8,14 +8,14 @@ This is a Bible original text study tool, dedicated to providing a powerful tool
 
 This tool will provide Bible scholars with:
 
-- Original Bible text (provided by StrongNumber)
-- Bible Reader (dual-version comparison, multi-version comparison, bead-style reading, item-style reading)
-- Search (verse search, fuzzy search, spell-check search, multi-version unified search, annotation search, and quick bookmark search)
-- Tag navigation and navigation history
-- Translation of the original scripture text, provided with StrongNumber original text and word context, but it should be translate by the Bible scholar. For greater convenience, consider implementing a syntax editor to assist with translation by intelligently recognizing grammar, etc., but of course, the decision still rests with the Bible scholar.
-- Translation of StrongNumber words, providing their original text, English definitions, etc., translated by the Bible scholar.
-- StrongNumber relationship graph browser, similar to Xcode memory graph, displaying the relationships between StrongNumber words in a network-like manner.
-- Communication and difference comparator, providing Bluetooth + Wi-Fi face-to-face transfer function (similar to Airdrop, no need for network connection, just turn on Wi-Fi and Bluetooth for transfer). This allows multiple Bible scholars to share their study records through this module and perform difference comparison. If agreed upon, it can be incorporated into their own database.
+- **Original Bible text** (provided by StrongNumber)
+- **Bible Reader** (dual-version comparison, multi-version comparison, bead-style reading, item-style reading)
+- **Search** (verse search, fuzzy search, spell-check search, multi-version unified search, annotation search, and quick bookmark search)
+- **Tag navigation** and **navigation history**
+- **Translation of the original scripture text**, provided with StrongNumber original text and word context, but it should be translate by the Bible scholar. For greater convenience, consider implementing a syntax editor to assist with translation by intelligently recognizing grammar, etc., but of course, the decision still rests with the Bible scholar.
+- **Translation of StrongNumber words**, providing their original text, English definitions, etc., translated by the Bible scholar.
+- **StrongNumber relationship graph browser**, similar to Xcode memory graph, displaying the relationships between StrongNumber words in a network-like manner.
+- **Communication and difference comparator**, providing **Bluetooth + Wi-Fi face-to-face transfer function** (similar to Airdrop, no need for network connection, just turn on Wi-Fi and Bluetooth for transfer). This allows multiple Bible scholars to share their study records through this module and perform difference comparison. If agreed upon, it can be incorporated into their own database.
 
 Due to the large size of the scripture database, it cannot be uploaded to GitHub. Please contact me via Email to obtain it (this Email is an iCloud mailbox, and messages can also be sent to me via iMessage).
 
@@ -23,10 +23,7 @@ Currently, this project is in the design and planning stage and has not started 
 
 ### Design Diagrams and Sketches
 
-- Master Plan
-- Scripture Database Structure
-- [Other Sketches](./Diagrams/English)
-- [Current progress](./Diagrams/English/0.\ Design\ Diagrams\ Overview.md)
+- [Design Diagrams](./Diagrams/English/0.-Design-Diagrams-Overview.md)
 
 
 
