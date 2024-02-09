@@ -25,7 +25,8 @@ Currently, this project is in the design and planning stage and has not started 
 
 - Master Plan
 - Scripture Database Structure
-- [Other Sketches](./Diagrams/English), [Current Progress](./Diagrams/English/0. Design Diagrams Overview.md)
+- [Other Sketches](./Diagrams/English)
+- [Current Progress](./Diagrams/English/0. Design Diagrams Overview.md)
 
 
 
