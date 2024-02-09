@@ -25,7 +25,7 @@ Currently, this project is in the design and planning stage and has not started 
 
 - Master Plan
 - Scripture Database Structure
-- Other Sketches, Current Progress
+- [Other Sketches](./Diagrams/English), [Current Progress](./Diagrams/English/0. Design Diagrams Overview.md)
 
 
 
@@ -49,6 +49,8 @@ Currently only supports macOS 11.0 and higher
 ### Contact Information
 
 Email: wangchenlin2001@icloud.com
+
+If you have any other ideas please let me know, thanks. : )
 
 
 
