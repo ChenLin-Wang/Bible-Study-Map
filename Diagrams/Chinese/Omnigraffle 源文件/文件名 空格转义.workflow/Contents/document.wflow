@@ -102,8 +102,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -204,8 +202,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>0</integer>
 				<key>location</key>
@@ -368,12 +364,10 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>437.000000:633.000000</string>
+				<string>437.000000:453.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -849,12 +843,10 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>437.000000:820.000000</string>
+				<string>437.000000:640.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -864,21 +856,21 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>02338CB8-DEA1-498B-94D2-AFD4E4216D78</key>
-		<dict>
-			<key>from</key>
-			<string>1B471FB1-D4AB-4AAE-AF70-4FA4795B8384 - 1B471FB1-D4AB-4AAE-AF70-4FA4795B8384</string>
-			<key>to</key>
-			<string>363A62C1-A2D3-4BB0-A7BC-CEA167D20137 - 363A62C1-A2D3-4BB0-A7BC-CEA167D20137</string>
-		</dict>
-		<key>1A7C4E70-A14D-40A6-9B8A-B09314B96073</key>
+		<key>A255F2A9-05EC-41D2-9246-BCE9D254204B</key>
 		<dict>
 			<key>from</key>
 			<string>363A62C1-A2D3-4BB0-A7BC-CEA167D20137 - 363A62C1-A2D3-4BB0-A7BC-CEA167D20137</string>
 			<key>to</key>
 			<string>663B758E-6568-4D17-AF2D-BA4137FC1DB2 - 663B758E-6568-4D17-AF2D-BA4137FC1DB2</string>
 		</dict>
-		<key>BDE77F70-A68D-4F5F-8FB9-BBCB65066BB3</key>
+		<key>CB817A2C-53C0-4048-A706-531DCA492929</key>
+		<dict>
+			<key>from</key>
+			<string>1B471FB1-D4AB-4AAE-AF70-4FA4795B8384 - 1B471FB1-D4AB-4AAE-AF70-4FA4795B8384</string>
+			<key>to</key>
+			<string>363A62C1-A2D3-4BB0-A7BC-CEA167D20137 - 363A62C1-A2D3-4BB0-A7BC-CEA167D20137</string>
+		</dict>
+		<key>F6CA0DC6-A30D-4286-A529-DF41D2D28422</key>
 		<dict>
 			<key>from</key>
 			<string>876A4A90-C44C-4330-B624-D05EE092C380 - 876A4A90-C44C-4330-B624-D05EE092C380</string>
