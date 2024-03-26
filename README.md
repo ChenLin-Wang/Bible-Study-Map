@@ -21,9 +21,9 @@ Due to the large size of the scripture database, it cannot be uploaded to GitHub
 
 Currently, this project is in the design and planning stage and has not started coding. Welcome fellow believers to participate in this project.
 
-### Design Diagrams and Sketches
+### Diagrams
 
-- [Design Diagrams](./Diagrams/English/0.-Design-Diagrams-Overview.md)
+- [Design Diagrams](./Diagrams/English/2.-Design-Diagrams/0.-Design-Diagrams-Overview.md)
 
 
 
